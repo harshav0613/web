@@ -1,5 +1,5 @@
 <?php
-require "db.php";
+require "database.php";
 $tag_num = isset($_GET['tag']) ? $_GET['tag'] : 0;
 $status="";
 $sql="SELECT * FROM tags WHERE tag_num=$tag_num;";
